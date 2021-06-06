@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("showwert").innerText = await hello.getWert();
 });
 
-document.getElementById("clickMeBtn").addEventListener("click", async () => {
-  const name = document.getElementById("name").value.toString();
-  const greeting = await hello.greet(name);
+// document.getElementById("clickMeBtn").addEventListener("click", async () => {
+//   const name = document.getElementById("name").value.toString();
+//   const greeting = await hello.greet(name);
 
-  document.getElementById("greeting").innerText = greeting;
-});
+//   document.getElementById("greeting").innerText = greeting;
+// });
 
 document.getElementById("clickMeBtn2").addEventListener("click", async () => {
   const wert = document.getElementById("wert").value.toString();
