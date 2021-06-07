@@ -4,10 +4,7 @@
       "main": "src/hello/main.mo",
       "type": "motoko"
     },
-    "www": {
-      "type": "assets",
-      "source": ["public"]
-    },
+
     "hello_assets": {
       "dependencies": ["hello"],
       "frontend": {
